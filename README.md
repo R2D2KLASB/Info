@@ -1,4 +1,4 @@
 # Info
 Repository for general information and code styles
 
-check [CodeStandaard.md](./CodeStandaard.md)
+Check [CodeStandaard.md](./CodeStandaard.md)
