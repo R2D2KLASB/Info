@@ -105,15 +105,15 @@
 ## Files
 ### Include guards
 - Een include guard moet overeen komen met de bestandsnaam \
-      *voorbeeld:*
-        ```c++
-        #ifndef SAMPLE_HEADER_HPP
-        #define SAMPLE_HEADER_HPP
+  *voorbeeld:*
+    ```c++
+    #ifndef SAMPLE_HEADER_HPP
+    #define SAMPLE_HEADER_HPP
 
-        ...
+    ...
         
-        #endif  //SAMPLE_HEADER_HPP
-        ```
+    #endif  //SAMPLE_HEADER_HPP
+    ```
     `#pragma once` is dus niet toegestaan
 ### Includes
 - Bij het includen van zelfgeschreven header files gebruik je aanhalingstekens en alle andere met punthaken
