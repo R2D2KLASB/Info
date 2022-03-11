@@ -103,6 +103,7 @@
     ```
 
 ## Files
+- Alle code scheiden in header files and source files indien mogelijk
 ### Include guards
 - Een include guard moet overeen komen met de bestandsnaam \
   *voorbeeld:*
