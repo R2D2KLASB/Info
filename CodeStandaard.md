@@ -79,7 +79,7 @@
 - Een pull request naar de dev of main branch moet altijd door minimaal één iemand gereviewd worden
 
 ## Doxygen
-- Komt altijd bovenaan hpp-bestanden, na de includes \
+- Komt altijd bovenaan header files, na de includes \
   *voorbeeld:*
     ```c++
     #include <iostream>
