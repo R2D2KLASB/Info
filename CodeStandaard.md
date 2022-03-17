@@ -74,6 +74,7 @@
 
 ## Commits and pull requests
 - Werk met feature branches
+- Engelstalige commitmessages
 - Zet in de commit message duidelijk neer wat er geüpdatet is \
   *voorbeeld:* `Implemented communication code`
 - Een pull request naar de dev of main branch moet altijd door minimaal één iemand gereviewd worden
