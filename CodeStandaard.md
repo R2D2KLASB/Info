@@ -66,10 +66,22 @@
 
             bool function();
             int function(int var);
-            
+
+            ExampleClass(bool& booleanVar, int& integerVar, int& publicVar);
+
         private:
             int privateVar;
     }
+    ```
+### Constructors
+- Variabele declaratie is met 1 variabele per regel
+  *voorbeeld:*
+    ```c++
+    ExampleClass::ExampleClass(bool& booleanVar, int& integerVar, int& publicVar):
+      booleanVar(booleanVar),
+      integerVar(integerVar),
+      publicVar(publicVar)
+    {}
     ```
 
 ## Commits and pull requests
