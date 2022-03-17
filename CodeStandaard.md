@@ -74,7 +74,7 @@
     }
     ```
 ### Constructors
-- Variabele declaratie is met 1 variabele per regel
+- Variabele declaratie is met 1 variabele per regel \
   *voorbeeld:*
     ```c++
     ExampleClass::ExampleClass(bool& booleanVar, int& integerVar, int& publicVar):
