@@ -37,7 +37,7 @@ Om de pen te verplaatsen naar (1000, 1000) terwijl een lijn te tekenen:
 ___
 G28 wordt gebruikt voor het teruggaan naar home na het tekenen.
 Het G28 commando heeft geen paramaters en wordt dus aangeroepen door het commando.
-``G28`
+``G28``
 
 ## Zeeslag
 
