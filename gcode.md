@@ -93,7 +93,7 @@ Het G6 commando heeft 4 paramaters
 - W: De width van de boot
 - L: De length van de boot
 
-Let op: als de width en length beide ongelijk zijn aan 1 dan wordt de boot niet getekend omdat dat in overtreding van de standaard is.
+*Let op: als de width en length beide ongelijk zijn aan 1 dan wordt de boot niet getekend omdat dat in overtreding van de standaard is.*
 
 Om een boat van 2 lang te tekenen in vakje A1 gebruik je: 
 ``G5 R1 C1 W1 L2``
