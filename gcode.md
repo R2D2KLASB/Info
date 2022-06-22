@@ -16,7 +16,7 @@ Het G0 commando heeft 2 paramaters
 - Y: Het y-coordinaat van het speelbord waar de pen naar toe moet bewegen
 
 Om de pen te verplaatsen naar (1000, 1000) zonder een lijn te tekenen:
-``G0 X1000 1000``
+``G0 X1000 Y1000``
 
 
 ### G1: Tekenend verplaatsen
@@ -30,7 +30,7 @@ Het G1 commando heeft 2 paramaters
 - Y: Het y-coordinaat van het speelbord waar de pen naar toe moet bewegen
 
 Om de pen te verplaatsen naar (1000, 1000) terwijl een lijn te tekenen:
-``G1 X1000 1000``
+``G1 X1000 Y1000``
 
 ### G28: Home
 
