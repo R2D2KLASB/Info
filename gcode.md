@@ -52,7 +52,7 @@ Het G3 commando heeft geen paramaters en wordt dus aangeroepen door het commando
 
 ### G4: Hit
 
-![G4 output](G4.bmp)
+![G4 R1 C1 P1](G4.bmp)
 ___
 G4 wordt gebruikt voor tekenen van een hit.
 
@@ -69,7 +69,7 @@ Om een hit te tekenen in A1 op het eigen bord wordt dus gebruikt:
 
 ### G5: Miss
 
-![G5 output](G5.bmp)
+![G5 R1 C1 P1](G5.bmp)
 ___
 G5 wordt gebruikt voor tekenen van een miss.
 
@@ -85,7 +85,7 @@ Om een miss te tekenen in A1 op het eigen bord wordt dus gebruikt:
 ``G5 R1 C1 P1``
 
 ### G6: Boats
-![G6 output](G6.bmp)
+![G6 R1 C1 W1 L2](G6.bmp)
 
 ___
 G6 wordt gebruikt voor tekenen van de boten.
@@ -103,7 +103,7 @@ Om een boat van 2 lang te tekenen in vakje A1 gebruik je: ``G6 R1 C1 W1 L2``
 
 
 ### G7: Sunken boats
-![G7 output](G7.bmp)
+![G7 R1 C1 W1 L2 P1](G7.bmp)
 
 ___
 G7 wordt gebruikt voor tekenen dat een boot gezonken is.
@@ -121,3 +121,19 @@ Het G7 commando heeft 5 paramaters
 *Let op: als de width en length beide ongelijk zijn aan 1 dan wordt er niet getekend omdat dat in overtreding van de standaard is.*
 
 Om aantegeven dat een boot van 2 lang is gezonken in vakje A1 van je eigen bord gebruik je: ``G7 R1 C1 W1 L2 P1``
+
+### G8: Win Lose
+![G8 P1](G8W.bmp)
+![G8 P0](G8L.bmp)
+
+___
+G8 wordt gebruikt voor het schrijven van de uitslag van de game.
+
+Het G8 commando heeft 1 parameter
+
+- P: ID van de speler die heeft gewonnen
+    - 0: geeft aan dat de tegenstander heeft gewonnen er wordt dus geschreven YOU LOSE
+    - 1: geeft aan de de speler heeft gewonnen er wordt dus geschreven YOU WON
+
+Om aantegeven dat de speler zelf gewonnen heeft gebruik je ``G8 P1``
+
