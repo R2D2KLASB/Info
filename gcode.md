@@ -85,6 +85,7 @@ Om een miss te tekenen in A1 op het eigen bord wordt dus gebruikt:
 ``G5 R1 C1 P1``
 
 ### G6: Boats
+
 ![G6 R1 C1 W1 L2](Images/G6.bmp)
 
 ___
@@ -103,10 +104,12 @@ Om een boat van 2 lang te tekenen in vakje A1 gebruik je: ``G6 R1 C1 W1 L2``
 
 
 ### G7: Sunken boats
-![G7 R1 C1 W1 L2 P1](Images/G7.bmp)
+
+![G7 R1 C1 W1 L2 P0](Images/G7.bmp)
 
 ___
 G7 wordt gebruikt voor tekenen dat een boot gezonken is.
+Bij het tekenen van een gezonken boot van de tegenstander wordt ook de boot zelf op die plek getekend.
 
 Het G7 commando heeft 5 paramaters
 
@@ -120,9 +123,11 @@ Het G7 commando heeft 5 paramaters
 
 *Let op: als de width en length beide ongelijk zijn aan 1 dan wordt er niet getekend omdat dat in overtreding van de standaard is.*
 
-Om aantegeven dat een boot van 2 lang is gezonken in vakje A1 van je eigen bord gebruik je: ``G7 R1 C1 W1 L2 P1``
+
+Om aantegeven dat een boot van 2 lang is gezonken in vakje A1 van je eigen bord gebruik je: ``G7 R1 C1 W1 L2 P0``
 
 ### G8: Win Lose
+
 ![G8 P1](Images/G8W.bmp)
 ![G8 P0](Images/G8L.bmp)
 
