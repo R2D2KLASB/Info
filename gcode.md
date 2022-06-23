@@ -43,7 +43,7 @@ Het G28 commando heeft geen paramaters en wordt dus aangeroepen door het command
 
 ### G3: Tekenen zeeslag bord
 
-![G3 output](G3.bmp)
+![G3 output](Images/G3.bmp)
 ___
 G3 wordt gebruikt voor tekenen van het eigen bord en het bord van de tegenstander
 
@@ -52,7 +52,7 @@ Het G3 commando heeft geen paramaters en wordt dus aangeroepen door het commando
 
 ### G4: Hit
 
-![G4 R1 C1 P1](G4.bmp)
+![G4 R1 C1 P1](Images/G4.bmp)
 ___
 G4 wordt gebruikt voor tekenen van een hit.
 
@@ -69,7 +69,7 @@ Om een hit te tekenen in A1 op het eigen bord wordt dus gebruikt:
 
 ### G5: Miss
 
-![G5 R1 C1 P1](G5.bmp)
+![G5 R1 C1 P1](Images/G5.bmp)
 ___
 G5 wordt gebruikt voor tekenen van een miss.
 
@@ -85,7 +85,7 @@ Om een miss te tekenen in A1 op het eigen bord wordt dus gebruikt:
 ``G5 R1 C1 P1``
 
 ### G6: Boats
-![G6 R1 C1 W1 L2](G6.bmp)
+![G6 R1 C1 W1 L2](Images/G6.bmp)
 
 ___
 G6 wordt gebruikt voor tekenen van de boten.
@@ -103,7 +103,7 @@ Om een boat van 2 lang te tekenen in vakje A1 gebruik je: ``G6 R1 C1 W1 L2``
 
 
 ### G7: Sunken boats
-![G7 R1 C1 W1 L2 P1](G7.bmp)
+![G7 R1 C1 W1 L2 P1](Images/G7.bmp)
 
 ___
 G7 wordt gebruikt voor tekenen dat een boot gezonken is.
@@ -123,8 +123,8 @@ Het G7 commando heeft 5 paramaters
 Om aantegeven dat een boot van 2 lang is gezonken in vakje A1 van je eigen bord gebruik je: ``G7 R1 C1 W1 L2 P1``
 
 ### G8: Win Lose
-![G8 P1](G8W.bmp)
-![G8 P0](G8L.bmp)
+![G8 P1](Images/G8W.bmp)
+![G8 P0](Images/G8L.bmp)
 
 ___
 G8 wordt gebruikt voor het schrijven van de uitslag van de game.
